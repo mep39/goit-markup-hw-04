@@ -510,7 +510,7 @@ clip: rect(0
 }
 
 .customers-icon {
-  fill: #8E8F99;
+  fill: red;
 }
 /* .customer-link:hover tag-line {
   fill: var(--primery-color);
