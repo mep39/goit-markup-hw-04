@@ -510,7 +510,7 @@ clip: rect(0
 }
 
 .customers-icon {
-  fill: red;
+  fill: #8E8F99;
 }
 /* .customer-link:hover tag-line {
   fill: var(--primery-color);
@@ -540,13 +540,13 @@ clip: rect(0
 /* ----------------------FOOTER------------------ */
 .footer {
   background: var(--accent-color);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  /* padding-top: 100px;
+  padding-bottom: 100px; */
   /* margin: 0; */
   /* padding-left: 156px; */
 }
 
-.container footer {
+.container down {
   align-items: baseline;
   display: flex;
 }
