@@ -540,15 +540,21 @@ clip: rect(0
 /* ----------------------FOOTER------------------ */
 .footer {
   background: var(--accent-color);
-  /* padding-top: 100px;
-  padding-bottom: 100px; */
+  padding-top: 100px;
+  padding-bottom: 100px;
   /* margin: 0; */
   /* padding-left: 156px; */
+  display: flex;
 }
 
-.container down {
+.subfooter {
   align-items: baseline;
   display: flex;
+}
+
+.footer-container {
+  width: 264px;
+  height: 110px;
 }
 
 .footer .logo {
@@ -570,15 +576,17 @@ clip: rect(0
   /* margin: 0; */
 }
 
-.social {
+/* .social {
   width: 208px;
   height: 80px;
   padding-top: 100px;
-  padding-bottom: 130px;
+  padding-bottom: 130px; */
   /* margin-left: 120px; */
-}
+
 
 .footer-social-container {
+  width: 208;
+  height: 80px;
   margin-left: 120px;
 }
 .social-title {
@@ -588,16 +596,16 @@ clip: rect(0
   color: #FFFFFF;
   font-style: normal;
 
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 
 }
 
 .social-list-soc-list {
   display: flex;
   /* flex-wrap: wrap; */
-  justify-content: center;
+  /* justify-content: center; */
   gap: 16px;
-  padding-bottom: 130px;
+  /* padding-bottom: 130px; */
 }
 
 .social-list-soc-item {
