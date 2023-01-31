@@ -333,7 +333,7 @@ clip: rect(0
 
 .feature {
   padding-top: 120px;
-  /* padding-bottom: 120px; */
+  padding-bottom: 120px;
 }
 .feature-list {
   display: flex;
