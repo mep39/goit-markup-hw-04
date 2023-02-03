@@ -153,9 +153,9 @@ img {
   padding-bottom: 188px;
 
 }
-.container hero-container {
-  /* width: 1440px;
-  height: 600px;
+.hero-container {
+  width: 1440px;
+  /* height: 600px;
   padding-top: 188px;
   margin: auto; */
 }
@@ -193,7 +193,7 @@ img {
   /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
   padding: 16px 32px;
   /* padding-bottom: 188px; */
-  margin-left: 479px;
+  margin-left: 635px;
 }
 .hero-btn:hover,
 .hero-btn:focus { 
@@ -258,6 +258,7 @@ clip: rect(0
 .portfolio-btn-item :hover,
 .portfolio-btn-item :focus {
   color: #FFFFFF;
+  border-color: var(--primery-color);
   background-color: var(--primery-color);    
   cursor: pointer;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
